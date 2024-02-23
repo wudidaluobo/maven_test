@@ -10,6 +10,9 @@ import lombok.NoArgsConstructor;
 public class User {
     private Integer uid;
     private String name;
-
+    private int add(int a,int b)
+    {
+        return a+b;
+    }
 
 }
