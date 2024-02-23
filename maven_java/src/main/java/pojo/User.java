@@ -11,6 +11,7 @@ public class User {
     private Integer uid;
     private String name;
     private Integer age;
+    private String address;
     private int add(int a,int b)
     {
         return a+b;
