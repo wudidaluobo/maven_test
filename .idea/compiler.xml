@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maven_web" />
+        <module name="maven_java" />
+        <module name="son_A" />
+        <module name="maven_web_plugin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven_java" target="19" />
+      <module name="maven_web" target="19" />
+      <module name="maven_web_plugin" target="19" />
+      <module name="parent" target="19" />
+      <module name="son_A" target="19" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
